@@ -1,4 +1,4 @@
-# easyBank-FrontendMentorEasybank é um desafio Frontend proposto e desenvolvido pela comunidade Frontend Mentor.
+# easyBank-FrontendMentor-Challange
 
 Easybank é um desafio Frontend proposto e desenvolvido pela comunidade Frontend Mentor.
 Neste exemplo utilizei as tecnologias HTML, CSS e Javascript
