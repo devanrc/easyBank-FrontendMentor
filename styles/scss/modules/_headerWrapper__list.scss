@@ -1,3 +1,17 @@
 .headerWrapper__list {
     display: none;
+
+    .menu__item:not(:last-child) {
+        margin-right: $mg-s * 3;
+    }
+
+    @include for-desktop-up {
+        display: flex;
+
+        .menu__item a {
+            color: $darkBlue;
+        }
+        
+    }
+    
 }

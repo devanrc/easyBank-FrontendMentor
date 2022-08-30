@@ -11,10 +11,28 @@
         text-align: center;
     }
 
-    .sectionDigitalBank__photo:last-child{
+    .sectionDigitalBank__photo:last-child {
         position: relative;
         width: 90%;
         top: -3rem;
+    }
+
+    @include for-desktop-up {
+
+        .sectionDigitalBank__photo:first-child:not(:last-child) {
+            content: url('../../../../images/bg-intro-desktop.svg');
+            max-width: 70%;
+            right: -15rem;
+            top: -8rem;
+        }
+
+        .sectionDigitalBank__photo:last-child {
+            max-width: 40%;
+            float: right;
+            position: relative;
+            right: -5rem;
+            top: -6rem;
+        }
     }
 }
 

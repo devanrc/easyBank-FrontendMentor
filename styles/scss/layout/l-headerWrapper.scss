@@ -18,4 +18,14 @@
     .headerWrapper__iconOpenMenu {
         transition: all 2s ease-in-out;
     }
+    
+    .headerWrapper__buttonPrimary {
+        display: none;
+    }
+
+    @include for-desktop-up {
+        .headerWrapper__buttonPrimary {
+            display: block;
+        }
+    }
 }

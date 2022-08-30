@@ -115,6 +115,14 @@ body {
 .headerWrapper .headerWrapper__iconOpenMenu {
   transition: all 2s ease-in-out;
 }
+.headerWrapper .headerWrapper__buttonPrimary {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .headerWrapper .headerWrapper__buttonPrimary {
+    display: block;
+  }
+}
 
 .sectionDigitalBank {
   width: 100%;
@@ -194,7 +202,7 @@ body {
 .c-articlePost__title {
   color: hsl(233deg, 26%, 24%);
   font-size: 1.777rem;
-  margin-bottom: 0.9rem;
+  margin: 0.9rem;
 }
 .c-articlePost__paragraph {
   color: hsl(234deg, 9%, 65%);
@@ -289,6 +297,17 @@ body {
 .headerWrapper__list {
   display: none;
 }
+.headerWrapper__list .menu__item:not(:last-child) {
+  margin-right: 2.7rem;
+}
+@media (min-width: 1200px) {
+  .headerWrapper__list {
+    display: flex;
+  }
+  .headerWrapper__list .menu__item a {
+    color: hsl(233deg, 26%, 24%);
+  }
+}
 
 .headerWrapper__menuBurguer .headerWrapper__button {
   border: none;
@@ -296,6 +315,11 @@ body {
 }
 .headerWrapper__menuBurguer .headerWrapper__button img {
   height: 0.9rem;
+}
+@media (min-width: 1200px) {
+  .headerWrapper__menuBurguer {
+    display: none;
+  }
 }
 
 .sectionDigitalBank__imageWrapper {
@@ -313,6 +337,21 @@ body {
   position: relative;
   width: 90%;
   top: -3rem;
+}
+@media (min-width: 1200px) {
+  .sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:first-child:not(:last-child) {
+    content: url("../../../../images/bg-intro-desktop.svg");
+    max-width: 70%;
+    right: -15rem;
+    top: -8rem;
+  }
+  .sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:last-child {
+    max-width: 40%;
+    float: right;
+    position: relative;
+    right: -5rem;
+    top: -6rem;
+  }
 }
 
 .footerDark__navigationWrapper .footerDark__listSocialWrapper {
