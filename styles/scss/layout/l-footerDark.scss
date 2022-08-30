@@ -1,0 +1,19 @@
+.footerDark {
+    width: 100%;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: $darkBlue;   
+    color: $lightGrayishBlue;
+
+    .footerDark__logo {
+        margin-bottom: $mg-sm;
+    }
+
+    .buttonPrimary__footerDark {
+        margin-bottom: $mg-sm;
+    }
+
+    .footerDark__copyright {
+        color: $grayishBlue;
+    }
+}

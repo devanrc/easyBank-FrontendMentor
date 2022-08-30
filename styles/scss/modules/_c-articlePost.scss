@@ -1,0 +1,31 @@
+.c-articlePost {
+    text-align: left;
+    font-family: 'Public Sans', sans-serif;
+    margin-bottom: 5rem;
+
+    &__container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    &__img {
+        margin-bottom: $mg-sm;
+        width: 100%;
+    }
+
+    &__author {
+        color: $grayishBlue;
+        margin-bottom: $mg-s;
+    }
+
+    &__title {
+        color: $darkBlue;
+        font-size: $subtitle-xl; 
+        margin.xx~sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdssd~sdsd-bottom: $mg-s;
+    }
+
+    &__paragraph {
+       color: $grayishBlue;
+       line-height: 1.2rem;
+    }
+}

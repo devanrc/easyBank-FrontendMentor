@@ -1,0 +1,59 @@
+//Revisada
+
+.menuDropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgba(36, 6, 71, 0.3);
+    box-shadow: 1px 1px 3 rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    border-radius: 10px;
+    transition: 2.1s ease-in-out 0.2ms;
+  
+    .menuDropdown__item {
+        a {
+            color: $darkBlue;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: $mg-sm;
+        }
+    }
+}
+
+.dropDown__mask {
+    transition: 2.1s ease-in-out 0.2ms;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21,37,52, 96%);;
+    z-index: 80;
+    opacity: 0;
+}
+
+//class selectors for effects top and down
+.toTop {
+	transform: translateY(-25rem);
+}
+
+.toDown {
+	transform: translateY(1rem);
+}
+
+.opacityOff {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.opacityOn {
+    opacity: 1;
+    transition: all 2s;
+}

@@ -1,0 +1,48 @@
+%margin-center {
+    margin: 0 auto;
+}
+
+%border-none {
+    border: none !important;
+    //Important porque sobrescreve o valor caso haja algum valor padrão setado
+}
+
+%border-radius50 {
+    border-radius: 50px;    
+}
+
+%background-none {
+    background: none;
+}
+
+%text-center {
+    text-align: center;
+}
+
+%font-bolder {
+    font-weight: bolder;
+}
+
+%display-flex {
+    display: flex;
+}
+
+%justify-between {
+    justify-content: space-between;
+}
+
+%display-inlineBlock {
+    display: inline-block;
+}
+
+%pos-relative {
+    position: relative;
+}
+
+%pos-absolute {
+    position: absolute;
+}
+
+%paddingDefault-section {
+    padding: 70px 0 70px 0;
+}

@@ -1,0 +1,35 @@
+//Primary
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%);
+
+//Neutral
+$grayishBlue: hsl(234, 9%, 65%);
+$lightGrayishBlue: hsl(220, 16%, 90%);
+$veryLightGray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+$title-xl: 3.157rem;
+$title-xm: 2.369rem;
+
+$subtitle-xl: 1.777rem;
+$subtitle-xm: 1.333rem;
+
+$mg-s: 0.9rem; //Small
+$mg-sm: 2rem; //Small-medium
+
+$mg-lm: 3rem; //larguer-medium
+
+.buttonPrimary {
+    padding: 0.8rem 2rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size: inherit;
+    background: linear-gradient(100deg, hsla(120, 55%, 64%, 1) 0%, hsla(170, 30%, 51%, 1) 56%, hsla(206, 43%, 54%, 1) 100%);
+}
+
+
+
+

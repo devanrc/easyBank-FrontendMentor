@@ -1,0 +1,21 @@
+.headerWrapper {
+    z-index: 99;
+    background-color: $veryLightGray;
+    
+    .headerWrapper__logo {
+        width: 150px;
+    }
+
+    .headerWrapper__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4.5rem;
+        max-width: 90%; 
+        margin: 0 auto;
+    }
+
+    .headerWrapper__iconOpenMenu {
+        transition: all 2s ease-in-out;
+    }
+}

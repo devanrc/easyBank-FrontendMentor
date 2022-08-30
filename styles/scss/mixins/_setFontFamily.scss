@@ -1,0 +1,4 @@
+@mixin setFontFamily($fontName,$type) {
+    font-family: $fontName,$type;
+}
+

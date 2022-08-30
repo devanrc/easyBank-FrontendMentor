@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 112.5%;
+  overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.toTop {
+  top: -20rem;
+}
+
+.toDown {
+  top: 16rem;
+}
+
+.headerWrapper {
+  z-index: 99;
+  background-color: hsl(220deg, 16%, 96%);
+}
+.headerWrapper .headerWrapper__logo {
+  width: 170px;
+}
+.headerWrapper .headerWrapper__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.menuDrop {
+  position: absolute;
+  width: 90%;
+  height: 40vh;
+  background-color: white;
+  border: 1px solid rgba(36, 6, 71, 0.3);
+  box-shadow: 1px 1px 3 rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menuDrop .menuDrop__item a {
+  color: hsl(233deg, 26%, 24%);
+}
+.menuDrop .menuDrop__item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.dropDown__mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -99;
+}
+
+.sectionDigitalBank {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  margin-bottom: 8rem;
+}
+.sectionDigitalBank .sectionDigitalBank__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainBankFeatures {
+  font-family: "Public Sans", sans-serif;
+}
+.mainBankFeatures .mainBankFeatures__sectionFeatures {
+  margin: 8rem 0;
+}
+.mainBankFeatures .mainBankFeatures__container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mainBankFeatures .mainBankFeatures__titleSection {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 2.369rem;
+  margin-bottom: 0.9rem;
+}
+.mainBankFeatures .mainBankFeatures__paragraphSection {
+  color: hsl(234deg, 9%, 55%);
+  font-size: 0.7841176471rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
+
+.mainBankFeatures__sectionLatest .sectionLatest__titleSection {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 2.369rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.c-articlePost {
+  text-align: left;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 5rem;
+}
+.c-articlePost__container {
+  width: 85%;
+  margin: 0 auto;
+}
+.c-articlePost__img {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.c-articlePost__author {
+  color: hsl(234deg, 9%, 55%);
+  margin-bottom: 0.9rem;
+}
+.c-articlePost__title {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 1.777rem;
+  margin-bottom: 0.9rem;
+}
+.c-articlePost__paragraph {
+  color: hsl(234deg, 9%, 55%);
+}
+
+.c-articleWithButton__title {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 2.369rem;
+  margin-bottom: 0.9rem;
+}
+.c-articleWithButton__paragraph {
+  color: hsl(234deg, 9%, 55%);
+  font-weight: lighter;
+  font-size: 1.333rem;
+  margin-bottom: 2rem;
+}
+.c-articleWithButton__buttonPrimary {
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: inherit;
+  background-color: #1e3799;
+}
+
+.c-articleFeature {
+  font-family: "Public Sans", sans-serif;
+  text-align: center;
+}
+.c-articleFeature__photo {
+  min-width: 23%;
+  margin-bottom: 2rem;
+}
+.c-articleFeature__title {
+  font-size: 1.333rem;
+  color: hsl(233deg, 26%, 24%);
+  margin-bottom: 2rem;
+}
+.c-articleFeature__paragraph {
+  color: hsl(234deg, 9%, 55%);
+  font-size: 0.8885rem;
+  margin-bottom: 2rem;
+}
+
+.headerWrapper__list {
+  display: none;
+}
+
+.headerWrapper__menuBurguer .headerWrapper__button {
+  border: none;
+  background: none;
+}
+.headerWrapper__menuBurguer .headerWrapper__button img {
+  height: 1rem;
+}
+
+.sectionDigitalBank__imageWrapper {
+  position: relative;
+  width: 100%;
+}
+.sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:first-child {
+  width: 100%;
+  position: absolute;
+}
+.sectionDigitalBank__imageWrapper li {
+  text-align: center;
+}
+.sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:last-child {
+  position: relative;
+  width: 90%;
+  top: -3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

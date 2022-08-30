@@ -1,0 +1,22 @@
+.c-articleFeature {
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+
+    &__photo {
+        min-width: 23%;
+        margin-bottom: $mg-sm;
+    }
+
+    &__title {
+        font-size: $subtitle-xm;
+        color: $darkBlue;
+        margin-bottom: $mg-sm;
+    }
+
+    &__paragraph {
+        color: $grayishBlue;
+        font-size: calc($subtitle-xl / 2);
+        margin-bottom: $mg-sm;
+        line-height: 1.3rem;
+    }
+}

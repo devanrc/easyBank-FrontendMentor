@@ -1,0 +1,25 @@
+.footerDark__navigationWrapper {
+
+    .footerDark__listSocialWrapper {
+        margin-bottom: $mg-sm;
+
+        .footerDark__socialItem {
+           display: inline-block;
+           
+            &:not(:last-child) {
+                margin-right: $mg-s;     
+            }
+        }
+    }
+
+    .footerDark__linksPageWrapper {
+        margin-bottom: $mg-sm;
+
+        .footerDark__linkItem {
+
+            &:not(:last-child) {
+                margin-bottom: $mg-s;
+            }
+        }
+    }
+}

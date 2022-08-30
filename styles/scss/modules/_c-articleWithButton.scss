@@ -1,0 +1,14 @@
+.c-articleWithButton {
+    &__title {
+        color: $darkBlue;
+        font-size: $title-xm;
+        margin-bottom: $mg-s;
+    }
+
+    &__paragraph {
+        color: $grayishBlue;
+        margin-bottom: $mg-sm;
+        line-height: 1.3rem;
+        font-size: calc($subtitle-xl / 2);
+    }
+}

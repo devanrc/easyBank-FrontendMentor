@@ -1,0 +1,27 @@
+.mainBankFeatures {
+    font-family: 'Public Sans', sans-serif;
+    
+    .mainBankFeatures__sectionFeatures {
+        margin: 8rem 0;
+    }
+
+    .mainBankFeatures__container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainBankFeatures__titleSection {
+        color: $darkBlue;
+        font-size: $title-xm;
+        margin-bottom: $mg-s;
+        
+    }
+
+    .mainBankFeatures__paragraphSection {
+        color: $grayishBlue;
+        font-size: calc($subtitle-xl / 2);
+        margin-bottom: 5rem;
+        line-height: 1.3rem;
+    }
+}
