@@ -13,3 +13,5 @@
 
 No momento, disponível apenas para <i><b>Dispositivos Mobile</b></i>,
 Layout Desktop sendo construído..
+
+O layout pode ser visto em mobile no link: https://devanrc.github.io/easyBank-FrontendMentor/
