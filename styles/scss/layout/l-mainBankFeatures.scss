@@ -24,4 +24,23 @@
         margin-bottom: 5rem;
         line-height: 1.3rem;
     }
+
+    @include for-desktop-up {
+       
+
+        .mainBankFeatures__sectionFeatures {
+          margin: 0;
+          text-align: left;
+        
+          .mainBankFeatures__paragraphSection {
+            width: 40vw;
+            min-width: 40vw
+          }
+
+          .mainBankFeatures__featuresContainer {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+    }
 }

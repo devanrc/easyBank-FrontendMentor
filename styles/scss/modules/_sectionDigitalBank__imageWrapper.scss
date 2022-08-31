@@ -18,20 +18,20 @@
     }
 
     @include for-desktop-up {
+        position: relative;
+        float: right;
+        width: 60%;
 
         .sectionDigitalBank__photo:first-child:not(:last-child) {
             content: url('../../../../images/bg-intro-desktop.svg');
-            max-width: 70%;
             right: -15rem;
-            top: -8rem;
+            top: -12rem;
         }
 
         .sectionDigitalBank__photo:last-child {
-            max-width: 40%;
-            float: right;
-            position: relative;
-            right: -5rem;
-            top: -6rem;
+           max-width: 60%;
+           right: -18rem;
+
         }
     }
 }

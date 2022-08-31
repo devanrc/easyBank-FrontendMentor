@@ -27,6 +27,7 @@
             margin-bottom: $mg-sm;
         }
     }
+
 }
 
 .dropDown__mask {
@@ -56,4 +57,14 @@
 .opacityOn {
     opacity: 1;
     transition: all 2s;
+}
+
+@include for-desktop-up {
+    .menuDropdown {
+        display: none;
+    }
+
+    .dropDown__mask {
+        display: none;
+    }
 }

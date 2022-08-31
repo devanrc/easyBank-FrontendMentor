@@ -19,4 +19,12 @@
         margin-bottom: $mg-sm;
         line-height: 1.3rem;
     }
+
+    @include for-desktop-up {
+        text-align: left;
+        
+        &__paragraph {
+            max-width: 15vw;
+        }
+    }
 }

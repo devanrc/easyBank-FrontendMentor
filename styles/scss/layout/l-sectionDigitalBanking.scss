@@ -7,5 +7,11 @@
     .sectionDigitalBank__container {
         margin: 0 auto;   
         text-align: center;
+        height: inherit;
+    }
+
+    @include for-desktop-up {
+        margin: 0;
+        height: 85vh;
     }
 }

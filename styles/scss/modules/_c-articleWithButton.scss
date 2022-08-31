@@ -11,4 +11,23 @@
         line-height: 1.3rem;
         font-size: calc($subtitle-xl / 2);
     }
+
+    @include for-desktop-up {
+        position: relative;
+        top: 25%;
+        width: 40%;
+        max-width: 70%;
+        text-align: left;
+
+        &__title {
+            font-size: $title-xl;
+            max-width: 15ch;
+        }
+
+
+        &__paragraph {
+            font-size: $subtitle-xm;
+            line-height: 2rem;
+        }
+    }
 }

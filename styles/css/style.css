@@ -133,6 +133,13 @@ body {
 .sectionDigitalBank .sectionDigitalBank__container {
   margin: 0 auto;
   text-align: center;
+  height: inherit;
+}
+@media (min-width: 1200px) {
+  .sectionDigitalBank {
+    margin: 0;
+    height: 85vh;
+  }
 }
 
 .mainBankFeatures {
@@ -156,6 +163,20 @@ body {
   font-size: 0.8885rem;
   margin-bottom: 5rem;
   line-height: 1.3rem;
+}
+@media (min-width: 1200px) {
+  .mainBankFeatures .mainBankFeatures__sectionFeatures {
+    margin: 0;
+    text-align: left;
+  }
+  .mainBankFeatures .mainBankFeatures__sectionFeatures .mainBankFeatures__paragraphSection {
+    width: 40vw;
+    min-width: 40vw;
+  }
+  .mainBankFeatures .mainBankFeatures__sectionFeatures .mainBankFeatures__featuresContainer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .mainBankFeatures__sectionLatest .sectionLatest__titleSection {
@@ -220,6 +241,23 @@ body {
   line-height: 1.3rem;
   font-size: 0.8885rem;
 }
+@media (min-width: 1200px) {
+  .c-articleWithButton {
+    position: relative;
+    top: 25%;
+    width: 40%;
+    max-width: 70%;
+    text-align: left;
+  }
+  .c-articleWithButton__title {
+    font-size: 3.157rem;
+    max-width: 15ch;
+  }
+  .c-articleWithButton__paragraph {
+    font-size: 1.333rem;
+    line-height: 2rem;
+  }
+}
 
 .menuDropdown {
   position: absolute;
@@ -274,6 +312,14 @@ body {
   transition: all 2s;
 }
 
+@media (min-width: 1200px) {
+  .menuDropdown {
+    display: none;
+  }
+  .dropDown__mask {
+    display: none;
+  }
+}
 .c-articleFeature {
   font-family: "Public Sans", sans-serif;
   text-align: center;
@@ -292,6 +338,14 @@ body {
   font-size: 0.8885rem;
   margin-bottom: 2rem;
   line-height: 1.3rem;
+}
+@media (min-width: 1200px) {
+  .c-articleFeature {
+    text-align: left;
+  }
+  .c-articleFeature__paragraph {
+    max-width: 15vw;
+  }
 }
 
 .headerWrapper__list {
@@ -339,18 +393,19 @@ body {
   top: -3rem;
 }
 @media (min-width: 1200px) {
+  .sectionDigitalBank__imageWrapper {
+    position: relative;
+    float: right;
+    width: 60%;
+  }
   .sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:first-child:not(:last-child) {
     content: url("../../../../images/bg-intro-desktop.svg");
-    max-width: 70%;
     right: -15rem;
-    top: -8rem;
+    top: -12rem;
   }
   .sectionDigitalBank__imageWrapper .sectionDigitalBank__photo:last-child {
-    max-width: 40%;
-    float: right;
-    position: relative;
-    right: -5rem;
-    top: -6rem;
+    max-width: 60%;
+    right: -18rem;
   }
 }
 
